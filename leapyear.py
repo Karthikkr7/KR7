@@ -1,5 +1,6 @@
 year=int(input())
-if(year%4==0):
+b=a%4
+if(b==0):
     print("yes")
 else:
     print("no")
